@@ -22,7 +22,7 @@ This is a small Plone ``viewlet`` tutorial that adds/removes a bit of template c
 Steps
 ~~~~~
 
-The goal of this package was to add/remove a viewlet as quickly as possible. The steps were roughly:
+The goal of this package is to add/remove a viewlet as quickly as possible. The steps are roughly:
 
 1. Create a Python package (viewlets_dont_suck)
 2. Create namespace packages (they.are.just.really.annoying)
