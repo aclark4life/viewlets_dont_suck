@@ -13,7 +13,7 @@ Explanation
 This is a small Plone ``viewlet`` tutorial that adds/removes a bit of template code to the portal top viewlet manager. The *tongue-in-cheek* title refers to the following:
 
 * In essence, ``viewlets`` are really cool. They allow you to customize any part of a Plone page without touching any Plone code.
-* In practice, they are hard to work with (in the author's opinion) due to, but not limited to, the following reasons (many of which may be limitations of Plone):
+* In practice, they are a bit harder to work with than they should be (in the author's opinion) due to but not limited to the following reasons (some of which may be limitations of Plone):
 
   * They require GenericSetup [1]_
   * They require a Python package [2]_
