@@ -24,8 +24,10 @@ The goal of this package was to add/remove a viewlet as quickly as possible. The
 1. Create a Python package (viewlets_dont_suck)
 2. Create namespace packages (they.are.just.really.annoying)
 3. Create generic setup profiles (default AKA install, uninstall)
-#. Create ZCML to configure viewlet
+#. Create ZCML to configure viewlet (added to the portal top viewlet manager)
 #. Create template (viewlets_dont_suck.pt)
+#. Add GS code to hide the viewlet on uninstall (is there any more we can do?)
+#. Add GS code to customize the order on install (last but not least)
 
 .. image:: https://github.com/aclark4life/viewlets_dont_suck/raw/master/viewlets_dont_suck.png
 
