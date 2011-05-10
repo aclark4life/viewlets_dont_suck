@@ -19,6 +19,9 @@ This is a small Plone ``viewlet`` tutorial that adds/removes a bit of template c
 Details
 -------
 
+.. image:: https://github.com/aclark4life/viewlets_dont_suck/raw/master/viewlets_dont_suck.png
+    :align: right
+
 The goal of this package was to add/remove a viewlet as quickly as possible. The steps were roughly:
 
 1. Create a Python package (viewlets_dont_suck)
@@ -29,7 +32,6 @@ The goal of this package was to add/remove a viewlet as quickly as possible. The
 #. Add GS code to hide the viewlet on uninstall (is there any more we can do?)
 #. Add GS code to customize the order on install (last but not least)
 
-.. image:: https://github.com/aclark4life/viewlets_dont_suck/raw/master/viewlets_dont_suck.png
 
 
 .. [1] Technically, they don't; i.e. you can add viewlets and viewlet managers with ZCML.
