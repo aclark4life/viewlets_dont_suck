@@ -1,0 +1,25 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+    <five:registerPackage package="." />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="Viewlets Don't Suck!"
+        description="They are just really annoying"
+        directory="."
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <browser:viewlet
+        name="viewlets.dont.suck"
+        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+        template="viewlets_dont_suck.pt"
+        permission="zope2.View"
+        />
+
+</configure>
