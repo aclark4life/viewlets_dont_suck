@@ -34,4 +34,4 @@ The goal of this package was to add/remove a viewlet as quickly as possible. The
 
 .. [1] Technically, they don't; i.e. you can add viewlets and viewlet managers with ZCML.
 .. [2] Technically, they don't; i.e. you can add ZCML without a Python package via the `plone.recipe.zope2instance` recipe, but GenericSetup requires a Python package (to register a directory full of XML configuration).
-.. [3] Viewlet managers provide an interface that viewlets may configure themselves to use (via manager=<INTERFACE> in ZCML)
+.. [3] ZCA is Zope Component Architecture. Viewlet managers provide an interface that viewlets may configure themselves to use (via manager=<INTERFACE> in ZCML)
