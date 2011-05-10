@@ -30,6 +30,7 @@ The goal of this package is to add/remove a viewlet as quickly as possible. The 
 #. Create ZCML to configure viewlet (added to the portal top viewlet manager)
 #. Create template (viewlets_dont_suck.pt)
 #. Add GS code to hide the viewlet on uninstall (is there any more we can do?)
+#. Add Python code to call the GS code to hide the viewlet (Extensions/install.py)
 #. Add GS code to customize the order on install (last but not least)
 
 .. [1] Technically, they don't; i.e. you can add viewlets and viewlet managers with ZCML.
