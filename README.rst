@@ -14,9 +14,9 @@ This is a small Plone ``viewlet`` tutorial that adds/removes a bit of template c
 * In essence, ``viewlets`` are really cool. They allow you to customize any part of a Plone page without touching any Plone code.
 * In practice, they are hard to work with (in the author's opinion) due to, but not limited to, the following reasons (many of which may actually be limitations of Plone):
 
-    * They require GenericSetup[1]
-    * They require a Python package[2]
-    * They require an understanding of the ZCA[3]
+    * They require GenericSetup [1]_
+    * They require a Python package [2]_
+    * They require an understanding of the ZCA [3]_
 
 
 Details
@@ -24,6 +24,6 @@ Details
 
 
 
-[1] Technically, they don't; i.e. you can add viewlets and viewlet managers with ZCML.
-[2] Technically, they don't; i.e. you can add ZCML without a Python package via the `plone.recipe.zope2instance` recipe, but GenericSetup requires a Python package (to register a directory full of XML configuration).
-[3] Viewlet managers provide an interface that viewlets may configure themselves to use (via manager=<INTERFACE> in ZCML)
+.. [1] Technically, they don't; i.e. you can add viewlets and viewlet managers with ZCML.
+.. [2] Technically, they don't; i.e. you can add ZCML without a Python package via the `plone.recipe.zope2instance` recipe, but GenericSetup requires a Python package (to register a directory full of XML configuration).
+.. [3] Viewlet managers provide an interface that viewlets may configure themselves to use (via manager=<INTERFACE> in ZCML)
