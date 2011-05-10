@@ -4,12 +4,6 @@ Introduction
 
 *Viewlets don't suck! They are just really annoying.*
 
-Screenshot
-----------
-
-.. image:: https://github.com/aclark4life/viewlets_dont_suck/raw/master/viewlets_dont_suck.png
-    :align: center
-
 Explanation
 -----------
 
@@ -35,7 +29,11 @@ The goal of this package was to add/remove a viewlet as quickly as possible. The
 #. Add GS code to hide the viewlet on uninstall (is there any more we can do?)
 #. Add GS code to customize the order on install (last but not least)
 
+Screenshot
+----------
 
+.. image:: https://github.com/aclark4life/viewlets_dont_suck/raw/master/viewlets_dont_suck.png
+    :align: center
 
 .. [1] Technically, they don't; i.e. you can add viewlets and viewlet managers with ZCML.
 .. [2] Technically, they don't; i.e. you can add ZCML without a Python package via the `plone.recipe.zope2instance` recipe, but GenericSetup requires a Python package (to register a directory full of XML configuration).
