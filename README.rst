@@ -16,8 +16,15 @@ This is a small Plone ``viewlet`` tutorial that adds/removes a bit of template c
   * They require a Python package [2]_
   * They require an understanding of the ZCA [3]_
 
-Details
--------
+Screenshot
+~~~~~~~~~~
+
+.. image:: https://github.com/aclark4life/viewlets_dont_suck/raw/master/viewlets_dont_suck.png
+    :align: center
+
+
+Steps
+~~~~~
 
 The goal of this package was to add/remove a viewlet as quickly as possible. The steps were roughly:
 
@@ -28,12 +35,6 @@ The goal of this package was to add/remove a viewlet as quickly as possible. The
 #. Create template (viewlets_dont_suck.pt)
 #. Add GS code to hide the viewlet on uninstall (is there any more we can do?)
 #. Add GS code to customize the order on install (last but not least)
-
-Screenshot
-----------
-
-.. image:: https://github.com/aclark4life/viewlets_dont_suck/raw/master/viewlets_dont_suck.png
-    :align: center
 
 .. [1] Technically, they don't; i.e. you can add viewlets and viewlet managers with ZCML.
 .. [2] Technically, they don't; i.e. you can add ZCML without a Python package via the `plone.recipe.zope2instance` recipe, but GenericSetup requires a Python package (to register a directory full of XML configuration).
