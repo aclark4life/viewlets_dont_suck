@@ -9,7 +9,7 @@
 
     <genericsetup:registerProfile
         name="default"
-        title="Viewlets Don't Suck! (Install)"
+        title="Viewlets Don't Suck!"
         description="They are just really annoying"
         directory="profiles/default"
         provides="Products.GenericSetup.interfaces.EXTENSION"
@@ -17,7 +17,7 @@
 
     <genericsetup:registerProfile
         name="uninstall"
-        title="Viewlets Don't Suck! (Uninstall)"
+        title="Uninstall Viewlets Don't Suck!"
         description="They are just really annoying"
         directory="profiles/uninstall"
         provides="Products.GenericSetup.interfaces.EXTENSION"
