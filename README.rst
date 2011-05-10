@@ -2,6 +2,10 @@
 Introduction
 ============
 
+.. image:: https://github.com/aclark4life/viewlets_dont_suck/raw/master/viewlets_dont_suck.png
+    :align: right
+    :scale: 50%
+
 *Viewlets don't suck! They are just really annoying.*
 
 Explanation
@@ -15,13 +19,6 @@ This is a small Plone ``viewlet`` tutorial that adds/removes a bit of template c
   * They require GenericSetup [1]_
   * They require a Python package [2]_
   * They require an understanding of the ZCA [3]_
-
-Screenshot
-~~~~~~~~~~
-
-.. image:: https://github.com/aclark4life/viewlets_dont_suck/raw/master/viewlets_dont_suck.png
-    :align: center
-
 
 Steps
 ~~~~~
