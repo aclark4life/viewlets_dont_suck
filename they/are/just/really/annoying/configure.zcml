@@ -17,7 +17,7 @@
 
     <genericsetup:registerProfile
         name="uninstall"
-        title="Uninstall Viewlets Don't Suck!"
+        title="Viewlets Don't Suck! (Uninstall)"
         description="They are just really annoying"
         directory="profiles/uninstall"
         provides="Products.GenericSetup.interfaces.EXTENSION"
